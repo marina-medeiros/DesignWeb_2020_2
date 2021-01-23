@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<style>
+		#seg,th,td{
+		border: 1px solid black;
+		border-collapse: collapse;
+
+		}
+		#bg{
+		background-color:#D3D3D3}
+	</style>
+	<meta charset="UTF-8"/>
+	<title> Aula 5 </title>
+</head>
+
+<table border="2">
+	<tr> 
+		<td> Columu 1 </td> 
+		<td> Columu 2 </td> 
+		<td> Columu 3 </td>
+	</tr>
+	<tr>
+		<td rowspan="2"> Row Cell 1</td> 
+		<td> Row 1 Cell 2</td> 
+		<td> Row 1 Cell 3 </td>
+	</tr>
+	<tr>
+		<td> Row 1 Cell 2</td> 
+		<td> Row 1 Cell 3 </td>
+	</tr>
+	<tr>
+		<td colspan="3"> Row 3 Cell 1</td> 
+	</tr>
+</table> <br/>
+
+<table border="1" id="seg">
+	<tr> 
+		<th> No. </th> 
+		<th> Full name </th> 
+		<th> Position </th> 
+		<th> Salary </th> 
+		<th> Type </th>
+	</tr>
+	<tr>
+		<td> 1 </td>
+		<td> Bill Gates</td> 
+		<td> Founder Microsoft</td>
+		<td> $1000 </td> 
+		<td rowspan="4"> Company Founder </td>
+	</tr>
+	<tr>
+		<td> 2 </td>
+		<td> Steve Jobs</td>
+		<td> Founder Apple </td> 
+		<td> $1200 </td>
+	</tr>
+	<tr>
+		<td> 3 </td>
+		<td> Larry Page</td> 
+		<td> Founder Google </td> 
+		<td> $1100 </td> 
+	</tr>
+	<tr>
+		<td> 4 </td>
+		<td> Mark Zukerberg </td> 
+		<td> Founder Facebook </td> 
+		<td> $1300 </td> 
+	</tr>
+	<tr>
+		<td colspan="3"> Total expense: </td> <td> $4600</td> 
+	</tr>
+</table> <br/>
+
+<table style="width:400px"id="seg">
+	<tr> 
+		<td id="bg"> Item / Desc. </td> 
+		<td id="bg"> Qty. </th> 
+		<td id="bg"> @ </th> 
+		<td id="bg"> Price </th>
+	</tr>
+	<tr>
+		<td> Paperclips (box) </td> 
+		<td>100</td> 
+		<td> 1.15 </td> 
+		<td> 115.00 </td>
+	</tr>
+	<tr>
+		<td> Paper (case) </case> </td> 
+		<td>10</td> 
+		<td> 45.99 </td> 
+		<td> 459.90 </td>
+	</tr>
+	<tr>
+		<td height="80"> Wastepaper <br/> Baskets </td> 
+		<td> 2 </td> 
+		<td> 17.99 </td> 
+		<td> 35.98 </td>
+	</tr>
+	<tr>
+		<td colspan="3" id="bg"> Subtotal </td> 
+		<td> 610.88 </td>
+	</tr>
+	<tr>
+		<td colspan="2" id="bg"> Tax </td> 
+		<td> 7% </td> 
+		<td> 42.76 </td>
+	</tr>
+	<tr>
+		<td colspan="3" id="bg"> Total </td> <td> 653.62 </td>
+	</tr>
+
+</table>
+
+</body>
+</html>
