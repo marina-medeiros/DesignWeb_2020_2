@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Marina Medeiros">
+        <meta name="keywords" content="Formulários, Inputs, Textarea"> 
+        <title> Formulário html </title>
+    </head>
+    <body>
+        <span>Por favor, preencha o formulário para que possamos saber mais sobre você.</span>
+        <form method="post" action="get_action()" id="form">
+            Nome: <input type="text" size="30" name="nome" placeholder="Escreva seu nome e sobrenome"/>  <br>
+            Senha: <input type="password" size="20" maxlength="8" placeholder="Senha de 8 dígitos"/> <br> <br>
+             Qual é o seu sexo? <br>
+            <input type="radio" name="sexo" value="Masculino"/> Masculino <br>
+            <input type="radio" name="sexo" value="Feminino"/> Feminino <br> <br>
+             Como você conheceu o site?: <br>
+            <select name="conheceu">
+                <option value="1">Indicação de amigos/familiares</option>
+                <option value="2">A partir de anúncios</option>
+                <option value="3">Pesquisa</option>
+                <option value="4">Outro</option>
+            </select> <br> <br>
+            Você concorda com os termos de uso? <br>
+            <a href="TermosDeUso.pdf">Clique aqui para fazer download dos termos de uso so site.</a> <br>
+            <input type="radio" name="termos" value="sim"/> Sim <br>
+            <input type="radio" name="termos" value="não"/> Não <br><br>
+            <input type="submit" value="Enviar Dados!" />
+        </form>
+        
+    </body>
+</html>
