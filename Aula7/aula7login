@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Marina Medeiros">
+        <meta name="keywords" content="Formulários, Inputs, Textarea"> 
+        <title> Formulário html </title>
+    </head>
+    <body>
+        <form method="post" action="get_action()">
+            Login: <input type="text" size="20" name="nome" placeholder="Escreva seu login"/> <br>
+            Senha: <input type="password" size="20" maxlength="8" placeholder="8 dígitos" placeholder="Digite sua senha"/> <br>
+            <input type="submit" value="Entrar" /> <br>
+            Esqueceu a senha/login?
+            <a href="aula7senhalogin.html" target="blank"> Recuperação de informações esquecidas </a> <br/>
+            Não tem conta?
+            <a href="aula7cadastro.html" target="blank"> Clique aqui para fazer seu cadastro </a>
+
+        </form>
+
+    </body>
+
+</html>
