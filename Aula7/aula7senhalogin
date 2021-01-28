@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Marina Medeiros">
+        <meta name="keywords" content="Formulários, Inputs, Textarea"> 
+        <title> Formulário html </title>
+    </head>
+    <body>
+        <header>
+        <h1> Recuperação de senha ou login</h1>
+        <hr>
+        </header>
+        <h2> Informe seu email e te enviaremos uma mensagem com seu usuário e senha. </h2>
+        <form method="post" action="get_action()">
+            <input type="text" size="40" name="email" placeholder="Email">
+            <input type="submit" value="Enviar" />
+        </form>
+
+
+
+    </body>
+</html>
